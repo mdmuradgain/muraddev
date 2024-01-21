@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Typed Style CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js" integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <title>Murad Portfolio Website</title>
     <!-- Custom Css File Linked -->
     <link rel="stylesheet" href="css/style.css" />
@@ -15,29 +17,44 @@
   <body>
     <!-- Nav Section Start Here -->
     <nav>
-        <div class="container nav_container">
-            <a href="index.html">
-                <h4>Mu<span>rad</span></h4>
-            </a>
-            <ul class="nav_menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#service">Service</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#courses">Courses</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <button id="open-menu-btn"></button>
-            <button id="close-menu-btn"></button>
-        </div>
+      <div class="container nav_container">
+        <a href="index.html">
+          <h4>Mu<span>rad</span></h4>
+        </a>
+        <ul class="nav_menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#service">Service</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#courses">Courses</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button id="open-menu-btn"><i class="fa-solid fa-bars"></i></button>
+        <button id="close-menu-btn"><i class="fa-solid fa-xmark"></i></button>
+      </div>
     </nav>
-    
-    
-    
-    <!-- Custom Java Script File Link -->
-    <script src="js/script.js">
+    <!-- Nav Section End Here -->
 
-    </script>
+    <!-- Headear Section Start Here -->
+    <header>
+        <div class="container header_container" id="home">
+            <div class="header_left">
+                <div class="header_left_img">
+                    <img src="image/model.png" alt="Model Image">
+                </div>
+            </div>
+            <div class="header_right">
+                <div class="text_1">Hello, this is</div>
+                <div class="text_2">Murad Hossain</div>
+                <div class="text_3">And I'm a <span class="typing"></span> </div>
+                <a class="btn" href="www.facebook.com">Hire Me</a>
+            </div>
+        </div>
+    </header>
+    <!-- Headear Section End Here -->
+
+    <!-- Custom Java Script File Link -->
+    <script src="js/script.js"></script>
   </body>
 </html>
