@@ -8,6 +8,6 @@ var typed = new Typed('.typing', {
 
   var typed = new Typed('.typing2', {
     strings: ["Web Designer", "Web Developer"],
-    typeSpeed: 80,
-    backSpeed: 80,
+    typeSpeed: 70,
+    backSpeed: 70,
   }); 
